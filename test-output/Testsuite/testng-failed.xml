@@ -11,16 +11,17 @@
           <include name="afterMethod"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="RestApiLoginValidations"/>
           <include name="beforeMethod"/>
+          <include name="RestApiLoginValidations"/>
+          <include name="RestApiLoginValidations"/>
         </methods>
       </class> <!-- com.Raffloux.ApiTest.RafflouxApiTestClass -->
       <class name="com.Raffloux.ApiTest.LoginApiPN">
         <methods>
-          <include name="afterMethod"/>
-          <include name="setUp"/>
-          <include name="RafflouxRestApiValidations" invocation-numbers="0 1 2 3 4 5 6"/>
           <include name="tearDown"/>
+          <include name="RafflouxRestApiValidations"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.Raffloux.ApiTest.LoginApiPN -->
