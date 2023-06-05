@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>86/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>110/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 31 16:41:56 IST 2023</td>
+<td>Started on:</td><td>Fri Jun 02 11:57:51 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>500 seconds (500983 ms)</td>
+<tr><td>Total time:</td><td>81 seconds (81191 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -81,8 +81,7 @@ function toggleAllBoxes() {
 [public void com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
 Data provider mismatch
 Method: RestApiLoginValidations([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, double arg5, java.lang.String arg6])
-Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang.String) POST,(java.lang.String) /v1/fetchDrawDetails,(java.lang.String) {
-&quot;drawCode&quot;:&quot;22&quot;},(java.lang.Double) 200.0]
+Arguments: [null,null,null]
 	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
 	at org.testng.internal.Parameters.injectParameters(Parameters.java:909)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:37)
@@ -106,13 +105,12 @@ Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1616793790", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1616793790'><pre>org.testng.internal.reflect.MethodMatcherException: 
+</pre></div><a href='#' onClick='toggleBox("stack-trace2117495919", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2117495919'><pre>org.testng.internal.reflect.MethodMatcherException: 
 [public void com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,double,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
 Data provider mismatch
 Method: RestApiLoginValidations([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, double arg5, java.lang.String arg6])
-Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang.String) POST,(java.lang.String) /v1/fetchDrawDetails,(java.lang.String) {
-&quot;drawCode&quot;:&quot;22&quot;},(java.lang.Double) 200.0]
+Arguments: [null,null,null]
 	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
 	at org.testng.internal.Parameters.injectParameters(Parameters.java:909)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:37)
@@ -137,8 +135,8 @@ Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>486</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>53</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -149,10 +147,209 @@ Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:77, Winners Month With Login, POST, /v1/fetchWinnersMonthWithLogin, {}, 200.0, {"monthsSet":[{"month":"May","monthCode":5,"year":2023},{"month":"April","monthCode":4,"year":2023},{"month":"March","monthCode":3,"year":2023},{"month":"February","monthCode":2,"year":2023},{"month":"January","monthCode":1,"year":2023},{"month":"December","monthCode":12,"year":2022},{"month":"November","monthCode":11,"year":2022},{"m</td>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:97, fetchCategory  by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:62, News, POST, /v1/fetchNews, {
+    "slug":"using-raffle-raise-money-charity"
+}, 200.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:56, Sold Out Raffles with Login, POST, /v1/fetchSoldOutRafflesWithLogin, {}, 200.0, []</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:12, fetchAllRaffles With Login by giving invalid endpoint, POST, /v2/fetchFeaturedRafflessL, {}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:32, All Prizes Filter, POST, /v1/fetchAllPrizesFilter, {
+   
+    "raffle_id": 8860,
+    "topPrizes": 50,
+    "searchValue":"si",
+    "type":"descending"
+}, 200.0, [{"ticket_no_alias":49933,"status":3,"instant_win_prize__name":"£10 Site Credit","instant_win_prize__value":"10.00"},{"ticket_no_alias":49899,"status":3,"instant_win_prize__name":"£5 Site Credit","instant_win_prize__value":"5.00"},{"ticket_no_alias":49859,"status":3,"instant_win_prize__name":"£25 Site Credit","instant_win_prize_</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:69, fetchMyRafflesWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:7, fetchFeaturedRafflesWithLogin by giving  wrong payload, POST, /v1/fetchFeaturedRafflesWithLogin, {"idwe":"123"}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
+</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:81, Winners Datewise Data With Login, POST, /v1/fetchWinnersDatewiseDataWithLogin, {
+    "monthCode":5,
+    "year":2023
+}, 200.0, [{"date":21,"data":[{"id":9649,"Name":"Angela Cosgrove","TicketNo":440,"Location":"","ImgUrl":"","YouTubeVideoUrl":"","Draw_id":9311,"UserName_id":155572,"Position":1,"isFeatured":false,"created_at":"2023-05-21T21:01:43.539Z","DrawCode":"203845","MainImageUrl":"media23/raf4KBC_main.webp","Title":"£4,000</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:95, fetchMyCreditWithLogin   by giving  wrong payload, POST, /v1/fetchMyCreditWithLogin, {
+    "raffl": "3874"
+}, 200.0, {"credit_wallet":"1435241.82","today_transactions":[],"this_month_transactions":[{"id":130286,"value":"-24.95","running_balance":"2407.20","created_at":"2023-05-29T10:59:13.627Z","wallet_id":106498,"display_image_url":"media/icons/icn-ticket.png","message":"Ticket Purchase"},{"id":130285,"value":"-219.56","running_balance":"2432.15","created_at":"2023-05-29T10:58:19.390Z","wallet_id":106498,"display_image_url":"media/icons/icn-ticket.png","message":"Ticket Purchase"},{"id":130219,"value":"-1297.40","running_balance":"2651.71","created_at":"2023-05-29T09:35:58.</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:101, fetchCategoryWithLogin  by giving  wrong payload, POST, /v1/fetchCategoryWithLogin, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:13, fetchAllRaffles With Login  by giving  wrong payload, POST, /v1/fetchAllRafflesWithLogin, {"idwe":"123"}, 200.0, :[{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
+
+</td>
+<td></td>
+<td>1</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:84, Winners Datewise Data Filter With Login, POST, /v1/fetchWinnersDatewiseDataFilterWithLogin, {
+    "monthCode":5,
+    "year":2023,
+    "searchValue":"brief"
+}, 200.0, :[{"date":21,"data":[{"id":9649,"Name":"Angela Cosgrove","TicketNo":440,"Location":"","ImgUrl":"","YouTubeVideoUrl":"","Draw_id":9311,"UserName_id":155572,"Position":1,"isFeatured":false,"created_at":"2023-05-21T21:01:43.539Z","DrawCode":"203845","MainImageUrl":"media23/raf4KBC_main.webp","Title":"£4,000 in a Briefcase - Low Odds"}]},{"date":14,"data":[{"id":9628,"Name":"Nick Shaw","TicketNo":285,"Location":"","ImgUrl":"","YouTubeVideoUrl":"","Draw_id":9</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:99, Category With Login, POST, /v1/fetchCategoryWithLogin, {
+    "categoryName":"cash"
+}, 200.0, :{"category":[{"id":35,"CategoryName":"cash","CategorySummary":"
+Imagine waking up with an extra few hundred or thousand pounds in your pocket...well, with Raffolux you can make that dream a reality. We host multiple cash raffles every month so there’s always a cash prize up for grabs. Ranging from 1-10 ticket entries depending on the prize amount. The best thing about a cash raffle is that you can spend your winnings on whatever you like! Deposit for a house? Savings? New car? Shopping spree? You name it and it’s yours.
+
+\r\n
+Our cash raffles are all tax-free and the money is sent straight to your bank account, it really is that simple. From bank top-ups of £250 to our whopping jackpot prize of £50,000, winning a Raffolux cash raffle can be truly life changing. The best part is, whilst</td>
+<td></td>
+<td>1</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:108, Cart Data, POST, /v1/fetchFromCart, {}, 200.0, {"cartList":[390952],"ItemList":[{"id":703528,"cart_id":390952,"cartitem_id":703528}],"ticketList":[{"id":6843999,"raffle_id":8992,"price":"1.00"},{"id":6844048,"raffle_id":8992,"price":"1.00"},{"id":6844438,"raffle_id":8992,"price":"1.00"}]}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:66, fetchEntriesSold by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:11, All Raffles With Login, POST, /v1/fetchAllRafflesWithLogin, {}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
+</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:8, All Raffles by giving valid data, POST, /v1/fetchAllRaffles, {}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
+</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:51, fetchStatistics by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:57, fetchSoldOutRafflesWithLogin  by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:76, fetchWinnersGallery  by giving  wrong payload, POST, /v1/fetchWinnersGallery, {
+    "raffl": "3874"
+}, 502.0, {"message": "Internal server error"}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:71, Winners Gallery With Login, POST, /v1/fetchWinnersGalleryWithLogin, {
+    "page":1
+}, 200.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:104, generateOtpSmsVerification  by giving  wrong payload, POST, /v1/generateOtpSmsVerification, {
+    "raffl": "3874"
+}, 200.0, {"message":"Message Sent."}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:39, fetchTotalRaisedCharitiesCount by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:103, generateOtpSmsVerification  by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:18, getRafflePageData fetchAllRaffles With Login by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:70, fetchMyRafflesWithLogin  by giving  wrong payload, POST, /v1/fetchMyRafflesWithLogin, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:21, fetchTopPrizes by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:4, fetchFeaturedRaffles by giving  wrong payload, POST, /v1/fetchFeaturedRaffles, {"idwrwer":"123"}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
+</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:109, fetchFromCart by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:59, News and Blogs, POST, /v1/fetchNewsAndBlogs, {}, 200.0, [{"id":369,"title":"Raffolux player Karen makes headlines","slug":"raffolux-player-karen-makes-headlines","updated_on":"2023-04-26T12:29:51.829Z","content":"Karen Hewit, a devoted mother from the UK, has been making headlines recently for her first holiday in 30 years. Karen has dedicated her entire life to caring for her son Jack, who has cerebral palsy and severe epilepsy. Her story of love and sacrifice has touched the hearts of people around the world, and it's been revealed that she's a long-term player of Raffolux.com, the online raffle site where she won her holiday.\r\n
 
@@ -181,17 +378,63 @@ Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang
 \r\n Raffles build community : Raffles can help build a sense of community around a particular cause or charity. By bringing people together and encouraging them to support the same cause, charities can create a sense of shared purpose and inspire people to work together to achieve a common goal.\r\n
 </td>
 <td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:17, getRafflePageDataWithLogin, POST, /v1/getRafflePageDataWithLogin, {
-    "raffleCode": "3874"
-}, 200.0, :[{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:105, Add to Cart, POST, /v1/addToCart, {"raffle_id": 8716,
 
+        "numberOftickets": 3,
+
+        selectedInstantTickets: [123,12]}, 200.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. Authorization header requires existence of either a 'X-Amz-Date' or a 'Date' header. Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNTEwNjMsInVzZXJfZW1haWwiOiJ2ZWVyYS5yYWdoYXZhbkByaGliaHVzLmNvbSIsInVzZXJfZmlyc3RfbmFtZSI6InZlZXJhIiwidXNlcl9sYXN0X25hbWUiOiJyYWdoYXZhbiIsImlhdCI6MTY4NTQyMDM4OX0.xFm9rzpffKetjqp9fdZdBNe5vzEIxyUrDIavZl7YaEU"}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:53, Sold Out Raffles, POST, /v1/fetchSoldOutRaffles, {}, 200.0, []</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:96, Category, POST, /v1/fetchCategory, {
+    "categoryName":"cash"
+}, 200.0, {"category":[{"id":35,"CategoryName":"cash","CategorySummary":"
+Imagine waking up with an extra few hundred or thousand pounds in your pocket...well, with Raffolux you can make that dream a reality. We host multiple cash raffles every month so there’s always a cash prize up for grabs. Ranging from 1-10 ticket entries depending on the prize amount. The best thing about a cash raffle is that you can spend your winnings on whatever you like! Deposit for a house? </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:94, fetchMyCreditWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:52, fetchStatistics  by giving  wrong payload, POST, /v1/fetchStatistics, {
+    "raffl": "3874"
+}, 200.0, {"PrizesWon":"9417871.64","RaisedCharity":"594828","RaffleWinners":"32046"}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:27, fetchAllPrizes  by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br/>
+<a href="#Output-1148735023" onClick='toggleBox("Output-1148735023", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1148735023" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1148735023">
+Actual Response body =>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNTEwNjMsInVzZXJfZW1haWwiOiJ2ZWVyYS5yYWdoYXZhbkByaGliaHVzLmNvbSIsInVzZXJfZmlyc3RfbmFtZSI6InZlZXJhIiwidXNlcl9sYXN0X25hbWUiOiJyYWdoYXZhbiIsImlhdCI6MTY4NTY4NzI5OH0.7GcEO1xMC5TeULUjv3QGeRbRYeNrjJ-C1y06mpBAONI=>Expected Response Body is=>eyJ1c2VyX2lkIjoxNTEwNjMsInVzZXJfZW1haWwiOiJ2ZWVyYS5yYWdoYXZhbkByaGliaHVzLmNvbSIsInVzZXJfZmlyc3RfbmFtZSI6InZlZXJhIiwidXNlcl9sYXN0X25hbWUiOiJyYWdoYXZhbiIsImlhdCI6MTY4NTMzMjEwM30<br/>
+</div>
 </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>26</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:26, All Prizes, POST, /v1/fetchAllPrizes, {
     
@@ -199,69 +442,133 @@ Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang
     "topPrizes": 50
 }, 200.0, [{"ticket_no_alias":80,"status":3,"instant_win_prize__name":"£25 Site Credit","instant_win_prize__value":"25.00"},{"ticket_no_alias":210,"status":3,"instant_win_prize__name":"£25 Site Credit","instant_win_prize__value":"25.00"},{"ticket_no_alias":248,"status":3,"instant_win_prize__name":"£50 Cash","instant_win_prize__value":"50.00"},{"ticket_no_alias":300,"status":3,"instant_win_prize__name":"£10</td>
 <td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>1</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:27, fetchAllPrizes  by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:71, Winners Gallery With Login, POST, /v1/fetchWinnersGalleryWithLogin, {
-    "page":1
-}, 200.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:56, Sold Out Raffles with Login, POST, /v1/fetchSoldOutRafflesWithLogin, {}, 200.0, []</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:6,  fetchFeaturedRafflesWithLogin by giving invalid endpoint, POST, /v2/fetchFeaturedRafflessL, {}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:9, fetchAllRaffles by giving invalid endpoint, POST, /v2/fetchFeaturedRafflessL, {}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:47, Charity Support With Login, POST, /v1/charitySupportWithLogin, {}, 200.0, [{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/ActionAidUKLogo.png","CharityActive":true,"CharityUrl":"https://www.actionaid.org.uk/","CharitySortOrder":1,"CharityDisplay":true,"CharitySelectable":true,"CharityShowLogo":true,"CharityImgAlt":"ActionAid Logo","CharityWhowonDescription":"","CharityWhowonImgUrl":"","DonationAmountAdjust":2837,"CharityLogoImgUrl":"media/AAUKlogo2.png","DonationAmountDisplayed":2837,"CharityUrlNewsletter":"","CharityAwareness":false,"created_at":"2021-03-01T00:00:01.000Z","CharityColor":"#000"}]</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:46, updateCharityWithLogin  by giving  wrong payload, POST, /v1/updateCharityWithLogin, {
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:34, fetchAllPrizesFilter by giving  wrong payload, POST, /v1/fetchAllPrizesFilter, {
     "raffl": "3874"
 }, 400.0, Invalid Request</td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:51, fetchStatistics by giving invalid endpoint, POST, /v1/getRaffePageD, {
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:98, fetchCategory  by giving  wrong payload, POST, /v1/fetchCategory, {
+    "raffl": "3874"
+}, 502.0, {"message": "Internal server error"}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:23, Top Prizes With Login, POST, /v1/fetchTopPrizesWithLogin, {
+    "raffle_id": 8716,
+    "topPrCnt": "50"
+}, 200.0, [{"id":655,"created":"2023-03-15T21:27:56.665Z","status":3,"ticket_no_alias":23514,"raffle_id":8716,"user_id":163509,"updated":"2023-03-15T21:27:56.665Z","price":"5000.00","legacy_tkt_nos":null,"instant_win_prize_id":655,"name":"£5,000 Cash","description":"","img_url":"media23/rafMWTH5000.web</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:6,  fetchFeaturedRafflesWithLogin by giving invalid endpoint, POST, /v2/fetchFeaturedRafflessL, {}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:48, charitySupportWithLogin  by giving invalid endpoint, POST, /v1/getRaffePageD, {
     "raffleCode": "3874"
 }, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:8, All Raffles by giving valid data, POST, /v1/fetchAllRaffles, {}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
-</td>
-<td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:44, Update Charity With Login, POST, /v1/updateCharityWithLogin, {
-    "charity_id": 300
-}, 200.0, :200</td>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:87, Draw Details, POST, /v1/fetchDrawDetails, {
+"drawCode":"203945"}, 200.0, {"monthsSet":[{"month":"May","monthCode":5,"year":2023},{"month":"April","monthCode":4,"year":2023},{"month":"March","monthCode":3,"year":2023},{"month":"February","monthCode":2,"year":2023},{"month":"January","monthCode":1,"year":2023},{"month":"December","monthCode":12,"year":2022},{"month":"November","monthCode":11,"year":2022},{"m</td>
 <td></td>
 <td>0</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:107, addToCart  by giving  wrong payload, POST, /v1/addToCart, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:25, fetchTopPrizesWithLogin by giving  wrong payload, POST, /v1/fetchTopPrizesWithLogin, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:20, fetchTopPrizes, POST, /v1/fetchTopPrizes, {
+    "raffle_id": 8716,
+    "topPrCnt": "50"
+}, 200.0, [{"id":655,"created":"2023-03-15T21:27:56.665Z","status":3,"ticket_no_alias":23514,"raffle_id":8716,"user_id":163509,"updated":"2023-03-15T21:27:56.665Z","price":"5000.00","legacy_tkt_nos":null,"instant_win_prize_id":655,"name":"£5,000 Cash","description":"","img_url":"media23/rafMWTH5000.webp","CategoryID_id":35,"cash_alternative":0},{"id":754,"created":"2023-03-15T21:27:57.763Z","status":3,"ticket_no_alias":34761,"raffle_id":8716,"user_id":1694,"updated":"2023-03-15T21:27:57.763Z","price":"2000.00","legacy_tkt_nos":null,"instant_win_prize_id":754,"name":"£2,000 Cash","description":"","img_url":"media23/rafMWTH2000.webp","CategoryID_id":35,"cash_alternative":0},{"id":754,"created":"2023-03-15T21:27:56.361Z","status":3,"ticket_no_alias":21121,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:56.361Z","price":"2000.00","legacy_tkt_nos":null,"instant_win_prize_id":754,"name":"£2,000 Cash","description":"","img_url":"media23/rafMWTH2000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:54.844Z","status":3,"ticket_no_alias":6585,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:54.844Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:54.707Z","status":3,"ticket_no_alias":4520,"raffle_id":8716,"user_id":163509,"updated":"2023-03-15T21:27:54.707Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.373Z","status":3,"ticket_no_alias":11581,"raffle_id":8716,"user_id":112301,"updated":"2023-03-15T21:27:55.373Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.445Z","status":3,"ticket_no_alias":22693,"raffle_id":8716,"user_id":77968,"updated":"2023-03-15T21:27:56.445Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.367Z","status":3,"ticket_no_alias":11163,"raffle_id":8716,"user_id":5306,"updated":"2023-03-15T21:27:55.367Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.875Z","status":3,"ticket_no_alias":26405,"raffle_id":8716,"user_id":128879,"updated":"2023-03-15T21:27:56.875Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.946Z","status":3,"ticket_no_alias":27593,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:56.946Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.437Z","status":3,"ticket_no_alias":22138,"raffle_id":8716,"user_id":102777,"updated":"2023-03-15T21:27:56.437Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.436Z","status":3,"ticket_no_alias":22129,"raffle_id":8716,"user_id":2393,"updated":"2023-03-15T21:27:56.436Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:54.253Z","status":3,"ticket_no_alias":208,"raffle_id":8716,"user_id":121277,"updated":"2023-03-15T21:27:54.253Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.080Z","status":3,"ticket_no_alias":7644,"raffle_id":8716,"user_id":28895,"updated":"2023-03-15T21:27:55.080Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.225Z","status":3,"ticket_no_alias":19291,"raffle_id":8716,"user_id":124940,"updated":"2023-03-15T21:27:56.225Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.661Z","status":3,"ticket_no_alias":13231,"raffle_id":8716,"user_id":99015,"updated":"2023-03-15T21:27:55.661Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.729Z","status":3,"ticket_no_alias":14198,"raffle_id":8716,"user_id":149602,"updated":"2023-03-15T21:27:55.729Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.360Z","status":3,"ticket_no_alias":21080,"raffle_id":8716,"user_id":165331,"updated":"2023-03-15T21:27:56.360Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.823Z","status":3,"ticket_no_alias":35134,"raffle_id":8716,"user_id":145925,"updated":"2023-03-15T21:27:57.823Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.072Z","status":3,"ticket_no_alias":7073,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:55.072Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.760Z","status":3,"ticket_no_alias":34595,"raffle_id":8716,"user_id":124940,"updated":"2023-03-15T21:27:57.760Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.222Z","status":3,"ticket_no_alias":9825,"raffle_id":8716,"user_id":19292,"updated":"2023-03-15T21:27:55.222Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.595Z","status":3,"ticket_no_alias":12548,"raffle_id":8716,"user_id":116121,"updated":"2023-03-15T21:27:55.595Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.893Z","status":3,"ticket_no_alias":36070,"raffle_id":8716,"user_id":82749,"updated":"2023-03-15T21:27:57.893Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.873Z","status":3,"ticket_no_alias":26297,"raffle_id":8716,"user_id":138106,"updated":"2023-03-15T21:27:56.873Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.255Z","status":3,"ticket_no_alias":29501,"raffle_id":8716,"user_id":19292,"updated":"2023-03-15T21:27:57.255Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.365Z","status":3,"ticket_no_alias":21436,"raffle_id":8716,"user_id":112301,"updated":"2023-03-15T21:27:56.365Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.686Z","status":3,"ticket_no_alias":33229,"raffle_id":8716,"user_id":37632,"updated":"2023-03-15T21:27:57.686Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":700,"created":"2023-03-15T21:27:58.289Z","status":3,"ticket_no_alias":39991,"raffle_id":8716,"user_id":155231,"updated":"2023-03-15T21:27:58.289Z","price":"997.44","legacy_tkt_nos":null,"instant_win_prize_id":700,"name":"Holiday to Crete 🇬🇷","description":"","img_url":"IW/crete.webp","CategoryID_id":9,"cash_alternative":0},{"id":259,"created":"2023-03-15T21:27:57.900Z","status":3,"ticket_no_alias":36595,"raffle_id":8716,"user_id":145925,"updated":"2023-03-15T21:27:57.900Z","price":"499.99","legacy_tkt_nos":null,"instant_win_prize_id":259,"name":"Dyson Airwrap","description":"","img_url":"IW/dysonairwrap.webp","CategoryID_id":6,"cash_alternative":0},{"id":244,"created":"2023-03-15T21:27:56.812Z","status":3,"ticket_no_alias":25794,"raffle_id":8716,"user_id":105080,"updated":"2023-03-15T22:19:52.388Z","price":"499.00","legacy_tkt_nos":[],"instant_win_prize_id":244,"name":"New iPad","description":"","img_url":"IW/ipad10thgen.webp","CategoryID_id":6,"cash_alternative":0},{"id":245,"created":"2023-03-15T21:27:58.277Z","status":3,"ticket_no_alias":39152,"raffle_id":8716,"user_id":108826,"updated":"2023-03-15T21:27:58.277Z","price":"400.00","legacy_tkt_nos":null,"instant_win_prize_id":245,"name":"Samsung 50\" TV","description":"","img_url":"IW/officetv.webp","CategoryID_id":6,"cash_alternative":0},{"id":752,"created":"2023-03-15T21:27:55.660Z","status":3,"ticket_no_alias":13168,"raffle_id":8716,"user_id":145925,"updated":"2023-03-15T21:27:55.660Z","price":"389.99","legacy_tkt_nos":null,"instant_win_prize_id":752,"name":"Ninja Woodfire Electric BBQ","description":"","img_url":"IW/ninjawoodfire.webp","CategoryID_id":6,"cash_alternative":0},{"id":187,"created":"2023-03-15T21:27:57.251Z","status":3,"ticket_no_alias":29194,"raffle_id":8716,"user_id":142485,"updated":"2023-03-15T21:27:57.251Z","price":"389.00","legacy_tkt_nos":null,"instant_win_prize_id":187,"name":"PS5 Digital Edition","description":"","img_url":"IW/PS5DigitalEdition.webp","CategoryID_id":6,"cash_alternative":0},{"id":187,"created":"2023-03-15T21:27:54.347Z","status":3,"ticket_no_alias":1675,"raffle_id":8716,"user_id":7188,"updated":"2023-03-15T21:27:54.347Z","price":"389.00","legacy_tkt_nos":null,"instant_win_prize_id":187,"name":"PS5 Digital Edition","description":"","img_url":"IW/PS5DigitalEdition.webp","CategoryID_id":6,"cash_alternative":0},{"id":270,"created":"2023-03-15T21:27:55.737Z","status":3,"ticket_no_alias":14797,"raffle_id":8716,"user_id":124940,"updated":"2023-03-15T21:27:55.737Z","price":"349.00","legacy_tkt_nos":null,"instant_win_prize_id":270,"name":"Steam Deck","description":"","img_url":"IW/steamdeck.webp","CategoryID_id":6,"cash_alternative":0},{"id":257,"created":"2023-03-15T21:27:55.806Z","status":3,"ticket_no_alias":15802,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:55.806Z","price":"289.95","legacy_tkt_nos":null,"instant_win_prize_id":257,"name":"Nintendo Switch OLED","description":"","img_url":"IW/oledswitch.webp","CategoryID_id":6,"cash_alternative":0},{"id":709,"created":"2023-03-15T21:27:56.946Z","status":3,"ticket_no_alias":27615,"raffle_id":8716,"user_id":154224,"updated":"2023-03-15T21:27:56.946Z","price":"250.00","legacy_tkt_nos":null,"instant_win_prize_id":709,"name":"Oxford City Break","description":"","img_url":"IW/oxford.webp","CategoryID_id":9,"cash_alternative":0},{"id":751,"created":"2023-03-15T21:27:56.871Z","status":3,"ticket_no_alias":26168,"raffle_id":8716,"user_id":163509,"updated":"2023-03-15T21:27:56.871Z","price":"249.99","legacy_tkt_nos":null,"instant_win_prize_id":751,"name":"Ninja Speedi","description":"","img_url":"IW/ninjaspeedi.webp","CategoryID_id":6,"cash_alternative":0},{"id":144,"created":"2023-03-15T21:27:57.257Z","status":3,"ticket_no_alias":29631,"raffle_id":8716,"user_id":145255,"updated":"2023-03-15T21:27:57.257Z","price":"249.99","legacy_tkt_nos":null,"instant_win_prize_id":144,"name":"Xbox Series S","description":"","img_url":"IW/xboxseriess.webp","CategoryID_id":7,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:55.072Z","status":3,"ticket_no_alias":7063,"raffle_id":8716,"user_id":105080,"updated":"2023-03-15T21:27:55.072Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:54.713Z","status":3,"ticket_no_alias":4938,"raffle_id":8716,"user_id":165331,"updated":"2023-03-15T21:27:54.713Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:54.709Z","status":3,"ticket_no_alias":4672,"raffle_id":8716,"user_id":24779,"updated":"2023-03-15T21:27:54.709Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:56.363Z","status":3,"ticket_no_alias":21266,"raffle_id":8716,"user_id":31678,"updated":"2023-03-15T21:27:56.363Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:54.840Z","status":3,"ticket_no_alias":6250,"raffle_id":8716,"user_id":17684,"updated":"2023-03-15T21:27:54.840Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:55.214Z","status":3,"ticket_no_alias":9286,"raffle_id":8716,"user_id":19292,"updated":"2023-03-15T21:27:55.214Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:56.234Z","status":3,"ticket_no_alias":19931,"raffle_id":8716,"user_id":24779,"updated":"2023-03-15T21:27:56.234Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:56.163Z","status":3,"ticket_no_alias":18703,"raffle_id":8716,"user_id":105080,"updated":"2023-03-15T21:27:56.163Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:55.799Z","status":3,"ticket_no_alias":15330,"raffle_id":8716,"user_id":110218,"updated":"2023-03-15T21:27:55.799Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:56.439Z","status":3,"ticket_no_alias":22338,"raffle_id":8716,"user_id":145925,"updated":"2023-03-15T21:27:56.439Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0}]
+check_circle 9:49:59 AM Assertion passed
+check_circle 9:49:59 AM All sheet row datas are executed successfully</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:92, sortDrawticketsPurchase  by giving  wrong payload, POST, /v1/sortDrawticketsPurchase, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:110, fetchFromCart   by giving  wrong payload, POST, /v1/fetchFromCart, {
+    "raffl": "3874"
+}, 200.0, {"cartList":[390952],"ItemList":[{"id":703528,"cart_id":390952,"cartitem_id":703528}],"ticketList":[{"id":6843999,"raffle_id":8992,"price":"1.00"},{"id":6844048,"raffle_id":8992,"price":"1.00"},{"id":6844438,"raffle_id":8992,"price":"1.00"}]}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:38, Total Raised Charity Count, POST, /v1/fetchTotalRaisedCharitiesCount, {}, 200.0, [{"sum":"594828"}]</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:82, getRafflePageData fetchAllRaffles With Login by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:83, get Raffles With Login  by giving  wrong payload, POST, /v1/fetchWinnersDatewiseDataWithLogin, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:74, Winners Gallery, POST, /v1/fetchWinnersGallery, {
+    "page":1
+}, 200.0, :{"next_page":2,"winners":[{"id":8540,"DrawName":"2767 - Makita Cordless 4-Piece Tool Set","DrawType":"R","DrawCode":"177156","RaffleLink_id":7718,"BackgroundImageUrl":"","username":"janeymc1@aol.com","Location":"","TicketNo":231,"ImgUrl":"media/winners/JaneMillerWinnerpic.jpg","YouTubeVideoUrl":""},{"id":8474,"DrawName":"2646 - Tag Heuer Formula 1 Chronograph","DrawType":"R","DrawCode":"176448","RaffleLink_id":7576,"BackgroundImageUrl":"","usernam</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:79, fetchWinnersMonthWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:30, fetchAllPrizesWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:22, fetchTopPrizes Login  by giving  wrong payload, POST, /v1/fetchTopPrizes, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:14, getRafflePageData by giving valid data, POST, /v1/getRafflePageData, {
     "raffleCode": "3874"
@@ -269,8 +576,14 @@ Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang
 
 </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:10, fetchAllRaffles by giving  wrong payload, POST, /v1/fetchAllRaffles, {"idwe":"123"}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
+</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:2, fetchFeaturedRaffles by giving valid data, POST, /v1/fetchFeaturedRaffles, {}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
 
@@ -293,81 +606,90 @@ Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang
 \r\nYou will win an instant-win prize if you purchase a ticket number associated with a prize, if an instant-win prize ticket is unsold, it will not be won. \r\n
 </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:32, All Prizes Filter, POST, /v1/fetchAllPrizesFilter, {
-   
-    "raffle_id": 8860,
-    "topPrizes": 50,
-    "searchValue":"si",
-    "type":"descending"
-}, 200.0, [{"ticket_no_alias":49933,"status":3,"instant_win_prize__name":"£10 Site Credit","instant_win_prize__value":"10.00"},{"ticket_no_alias":49899,"status":3,"instant_win_prize__name":"£5 Site Credit","instant_win_prize__value":"5.00"},{"ticket_no_alias":49859,"status":3,"instant_win_prize__name":"£25 Site Credit","instant_win_prize_</td>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:61, fetchNewsAndBlogs  by giving  wrong payload, POST, /v1/fetchNewsAndBlogs, {
+    "raffl": "3874"
+}, 200.0, [{"id":369,"title":"Raffolux player Karen makes headlines","slug":"raffolux-player-karen-makes-headlines","updated_on":"2023-04-26T12:29:51.829Z","content":"Karen Hewit, a devoted mother from the UK, has been making headlines recently for her first holiday in 30 years. Karen has dedicated her entire life to caring for her son Jack, who has cerebral palsy and severe epilepsy. Her story of love and sacrifice has touched the hearts of people around the world, and it's been revealed that she's a long-term player of Raffolux.com, the online raffle site where she won her holiday.\r\n
+
+\r\n\r\n
+
+\r\nKaren's son, Jack, was diagnosed with cerebral palsy at birth, which affects movement and coordination, causing significant physical and developmental disabilities. In addition, Jack also has severe epilepsy, requiring around-the-clock care and attention. Karen has been his primary caregiver for the past 30 years, providing constant support and assistance.\r\n
+
+\r\nRaffolux.com, the online raffle site, offers luxury prizes to raise money for charities, and Karen is a long-term player. Her participation in the site led her to win a week-long stay in a caravan park in Cornwall, a well-deserved break for her after three decades of caregiving.\r\n
+</td>
 <td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:83, get Raffles With Login  by giving  wrong payload, POST, /v1/fetchWinnersDatewiseDataWithLogin, {
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:19, get Raffles With Login  by giving  wrong payload, POST, /v1/getRafflePageDataWithLogin, {
     "raffl": "3874"
 }, 400.0, Invalid Request</td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:50, Statistics, POST, /v1/fetchStatistics, {}, 200.0, :{"PrizesWon":"9417871.64","RaisedCharity":"594828","RaffleWinners":"32046"}</td>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:88, fetchDrawDetails by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:40, fetchTotalRaisedCharitiesCount  by giving  wrong payload, POST, /v1/fetchTotalRaisedCharitiesCount, {
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:106, addToCart  by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:58, fetchSoldOutRafflesWithLogin by giving  wrong payload, POST, /v1/fetchSoldOutRafflesWithLogin, {
     "raffl": "3874"
-}, 200.0, :[{"sum":"594828"}]</td>
+}, 200.0, []</td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:75, fetchWinnersGallery  by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:73, fetchWinnersGalleryWithLogin  by giving  wrong payload, POST, /v1/getRafflePageData, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:33, fetchAllPrizesFilter by giving invalid endpoint, POST, /v1/getRaffePageD, {
     "raffleCode": "3874"
 }, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:45, updateCharityWithLogin  by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:69, fetchMyRafflesWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:81, Winners Datewise Data With Login, POST, /v1/fetchWinnersDatewiseDataWithLogin, {
-    "monthCode":5,
-    "year":2023
-}, 200.0, [{"date":21,"data":[{"id":9649,"Name":"Angela Cosgrove","TicketNo":440,"Location":"","ImgUrl":"","YouTubeVideoUrl":"","Draw_id":9311,"UserName_id":155572,"Position":1,"isFeatured":false,"created_at":"2023-05-21T21:01:43.539Z","DrawCode":"203845","MainImageUrl":"media23/raf4KBC_main.webp","Title":"£4,000</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:57, fetchSoldOutRafflesWithLogin  by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:43, fetchIndividualCharity by giving  wrong payload, POST, /v1/fetchIndividualCharity, {
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:55, fetchSoldOutRaffles by giving  wrong payload, POST, /v1/getRafflePageData, {
     "raffl": "3874"
 }, 400.0, Invalid Request</td>
 <td></td>
 <td>0</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:50, Statistics, POST, /v1/fetchStatistics, {}, 200.0, :{"PrizesWon":"9417871.64","RaisedCharity":"594828","RaffleWinners":"32046"}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:91, sortDrawticketsPurchase by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:68, My Raffles With Login, POST, /v1/fetchMyRafflesWithLogin, {
     "page": 1
@@ -388,397 +710,246 @@ Arguments: [(java.lang.String) ROW:87,(java.lang.String) Draw Details,(java.lang
 \r\nEvery ticket will also be in with an equal chance of winning the grand prize of £10,000 cash! \r\n
 </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:22, fetchTopPrizes Login  by giving  wrong payload, POST, /v1/fetchTopPrizes, {
-    "raffl": "3874"
-}, 400.0, Invalid Request</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:63, fetchNews by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:11, All Raffles With Login, POST, /v1/fetchAllRafflesWithLogin, {}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
-</td>
-<td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:62, News, POST, /v1/fetchNews, {
-    "slug":"using-raffle-raise-money-charity"
-}, 200.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:10, fetchAllRaffles by giving  wrong payload, POST, /v1/fetchAllRaffles, {"idwe":"123"}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
-</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:41, Individual Charity, POST, /v1/fetchIndividualCharity, {
-    "id":"300"
-}, 200.0, [{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/ActionAidUKLogo.png","CharityActive":true,"CharityUrl":"https://www.actionaid.org.uk/","CharitySortOrder":</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:72, fetchWinnersGalleryWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:52, fetchStatistics  by giving  wrong payload, POST, /v1/fetchStatistics, {
-    "raffl": "3874"
-}, 200.0, {"PrizesWon":"9417871.64","RaisedCharity":"594828","RaffleWinners":"32046"}</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:75, fetchWinnersGallery  by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:23, Top Prizes With Login, POST, /v1/fetchTopPrizesWithLogin, {
-    "raffle_id": 8716,
-    "topPrCnt": "50"
-}, 200.0, [{"id":655,"created":"2023-03-15T21:27:56.665Z","status":3,"ticket_no_alias":23514,"raffle_id":8716,"user_id":163509,"updated":"2023-03-15T21:27:56.665Z","price":"5000.00","legacy_tkt_nos":null,"instant_win_prize_id":655,"name":"£5,000 Cash","description":"","img_url":"media23/rafMWTH5000.web</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:24, fetchTopPrizesWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:48, charitySupportWithLogin  by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:84, Winners Datewise Data Filter With Login, POST, /v1/fetchWinnersDatewiseDataFilterWithLogin, {
-    "monthCode":5,
-    "year":2023,
-    "searchValue":"brief"
-}, 200.0, :[{"date":21,"data":[{"id":9649,"Name":"Angela Cosgrove","TicketNo":440,"Location":"","ImgUrl":"","YouTubeVideoUrl":"","Draw_id":9311,"UserName_id":155572,"Position":1,"isFeatured":false,"created_at":"2023-05-21T21:01:43.539Z","DrawCode":"203845","MainImageUrl":"media23/raf4KBC_main.webp","Title":"£4,000 in a Briefcase - Low Odds"}]},{"date":14,"data":[{"id":9628,"Name":"Nick Shaw","TicketNo":285,"Location":"","ImgUrl":"","YouTubeVideoUrl":"","Draw_id":9</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:85, fetchWinnersDatewiseDataFilterWithLogin  by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:12, fetchAllRaffles With Login by giving invalid endpoint, POST, /v2/fetchFeaturedRafflessL, {}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br/>
-<a href="#Output-341778327" onClick='toggleBox("Output-341778327", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-341778327" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-341778327">
-Actual Response body =>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxNTEwNjMsInVzZXJfZW1haWwiOiJ2ZWVyYS5yYWdoYXZhbkByaGliaHVzLmNvbSIsInVzZXJfZmlyc3RfbmFtZSI6InZlZXJhIiwidXNlcl9sYXN0X25hbWUiOiJyYWdoYXZhbiIsImlhdCI6MTY4NTUzMTUyOX0._8-7Yoh0M4NdKIzZMmfBGa2AdAcAKx_oge9sun7A2KI=>Expected Response Body is=>eyJ1c2VyX2lkIjoxNTEwNjMsInVzZXJfZW1haWwiOiJ2ZWVyYS5yYWdoYXZhbkByaGliaHVzLmNvbSIsInVzZXJfZmlyc3RfbmFtZSI6InZlZXJhIiwidXNlcl9sYXN0X25hbWUiOiJyYWdoYXZhbiIsImlhdCI6MTY4NTMzMjEwM30<br/>
-</div>
-</td>
-<td></td>
-<td>13</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:74, Winners Gallery, POST, /v1/fetchWinnersGallery, {
-    "page":1
-}, 200.0, :{"next_page":2,"winners":[{"id":8540,"DrawName":"2767 - Makita Cordless 4-Piece Tool Set","DrawType":"R","DrawCode":"177156","RaffleLink_id":7718,"BackgroundImageUrl":"","username":"janeymc1@aol.com","Location":"","TicketNo":231,"ImgUrl":"media/winners/JaneMillerWinnerpic.jpg","YouTubeVideoUrl":""},{"id":8474,"DrawName":"2646 - Tag Heuer Formula 1 Chronograph","DrawType":"R","DrawCode":"176448","RaffleLink_id":7576,"BackgroundImageUrl":"","usernam</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>1</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:54, fetchSoldOutRaffles by giving invalid endpoint, POST, /v1/getRaffePageD, {
     "raffleCode": "3874"
 }, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:79, fetchWinnersMonthWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:49, charitySupportWithLogin  by giving  wrong payload, POST, /v1/charitySupportWithLogin, {
-    "raffl": "3874"
-}, 200.0, :[{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/ActionAidUKLogo.png","CharityActive":true,"CharityUrl":"https://www.actionaid.org.uk/","CharitySortOrder":1,"CharityDisplay":true,"CharitySelectable":true,"CharityShowLogo":true,"CharityImgAlt":"ActionAid Logo","CharityWhowonDescription":"","CharityWhowonImgUrl":"","DonationAmountAdjust":2837,"CharityLogoImgUr</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:7, fetchFeaturedRafflesWithLogin by giving  wrong payload, POST, /v1/fetchFeaturedRafflesWithLogin, {"idwe":"123"}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
-</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:30, fetchAllPrizesWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:78, Winners Monthwise Data With Login, POST, /v1/fetchWinnersMonthwiseDataWithLogin, {
     "monthCode":5,
     "year":2023
 }, 200.0, [{"id":9649,"Name":"Angela Cosgrove","TicketNo":440,"Location":"","ImgUrl":"","YouTubeVideoUrl":"","Draw_id":9311,"UserName_id":155572,"Position":1,"isFeatured":false,"created_at":"2023-05-21T21:01:43.539Z","DrawCode":"203845","MainImageUrl":"media23/raf4KBC_main.webp","Title":"£4,000 in a Briefcase - Low Odds"},{"i</td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:73, fetchWinnersGalleryWithLogin  by giving  wrong payload, POST, /v1/getRafflePageData, {
-    "raffl": "3874"
-}, 400.0, Invalid Request</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:3, fetchFeaturedRaffles by giving invalid endpoint, POST, /v2/fetchFeaturedRaff, {}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:31, fetchAllPrizesWithLogin by giving  wrong payload, POST, /v1/fetchAllPrizesWithLogin, {
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:43, fetchIndividualCharity by giving  wrong payload, POST, /v1/fetchIndividualCharity, {
     "raffl": "3874"
 }, 400.0, Invalid Request</td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:55, fetchSoldOutRaffles by giving  wrong payload, POST, /v1/getRafflePageData, {
-    "raffl": "3874"
-}, 400.0, Invalid Request</td>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:93, My Credit With Login, POST, /v1/fetchMyCreditWithLogin, {}, 200.0, {"credit_wallet":"1435241.82","today_transactions":[],"this_month_transactions":[{"id":130286,"value":"-24.95","running_balance":"2407.20","created_at":"2023-05-29T10:59:13.627Z","wallet_id":106498,"display_image_url":"media/icons/icn-ticket.png","message":"Ticket Purchase"},{"id":130285,"value":"-219.56","running_balance":"2432.15","created_at":"2023-05-29T10:58:19.390Z","wallet_id":106498,"display_image_url":"media/icons/icn-ticket.png","message":"Ticket Purchase"},{"id":130219,"value":"-1297.40","running_balance":"2651.71","created_at":"2023-05-29T09:35:58.224Z","wallet_id":106498,"display_image_url":"media/icons/icn-ticket.png","message":"Ticket Purchase"},{"id":130188,"value":"10.00","running_balance":"3949.11","created_at":"2023-05-25T12:13:20.745Z","wallet_id":106498,"display_image_ur</td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:13, fetchAllRaffles With Login  by giving  wrong payload, POST, /v1/fetchAllRafflesWithLogin, {"idwe":"123"}, 200.0, :[{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
-
-</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:82, getRafflePageData fetchAllRaffles With Login by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:5, Featured Raffles With Login by giving valid data, POST, /v1/fetchFeaturedRafflesWithLogin, {}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
-</td>
-<td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:80, fetchWinnersMonthWithLogin  by giving  wrong payload, POST, /v1/fetchWinnersMonthwiseDataWithLogin, {
-    "raffl": "3874"
-}, 400.0, Invalid Request</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:70, fetchMyRafflesWithLogin  by giving  wrong payload, POST, /v1/fetchMyRafflesWithLogin, {
-    "raffl": "3874"
-}, 400.0, Invalid Request</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:16, get Raffles With Login  by giving  wrong payload, POST, /v1/getRafflePageData, {
-    "raffl": "3874"
-}, 400.0, Invalid Request</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:53, Sold Out Raffles, POST, /v1/fetchSoldOutRaffles, {}, 200.0, []</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:35, All Charities, POST, /v1/fetchAllCharities, {}, 200.0, [{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/ActionAidUKLogo.png","CharityActive":true,"CharityUrl":"https://www.actionaid.org.uk/","CharitySortOrder":</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:64, fetchNews by giving  wrong payload, POST, /v1/fetchNews, {
-    "raffl": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:15, getRafflePageData fetchAllRaffles With Login by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:36, fetchAllCharities by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:86, fetchWinnersDatewiseDataFilterWithLogin   by giving  wrong payload, POST, /v1/fetchWinnersDatewiseDataFilterWithLogin, {
-    "raffl": "3874"
-}, 400.0, Invalid Request</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:61, fetchNewsAndBlogs  by giving  wrong payload, POST, /v1/fetchNewsAndBlogs, {
-    "raffl": "3874"
-}, 200.0, [{"id":369,"title":"Raffolux player Karen makes headlines","slug":"raffolux-player-karen-makes-headlines","updated_on":"2023-04-26T12:29:51.829Z","content":"Karen Hewit, a devoted mother from the UK, has been making headlines recently for her first holiday in 30 years. Karen has dedicated her entire life to caring for her son Jack, who has cerebral palsy and severe epilepsy. Her story of love and sacrifice has touched the hearts of people around the world, and it's been revealed that she's a long-term player of Raffolux.com, the online raffle site where she won her holiday.\r\n
-
-\r\n\r\n
-
-\r\nKaren's son, Jack, was diagnosed with cerebral palsy at birth, which affects movement and coordination, causing significant physical and developmental disabilities. In addition, Jack also has severe epilepsy, requiring around-the-clock care and attention. Karen has been his primary caregiver for the past 30 years, providing constant support and assistance.\r\n
-
-\r\nRaffolux.com, the online raffle site, offers luxury prizes to raise money for charities, and Karen is a long-term player. Her participation in the site led her to win a week-long stay in a caravan park in Cornwall, a well-deserved break for her after three decades of caregiving.\r\n
-</td>
-<td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:19, get Raffles With Login  by giving  wrong payload, POST, /v1/getRafflePageDataWithLogin, {
-    "raffl": "3874"
-}, 400.0, Invalid Request</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:21, fetchTopPrizes by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:60, fetchNewsAndBlogs  by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:66, fetchEntriesSold by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:37, fetchAllCharities  by giving  wrong payload, POST, /v1/fetchAllCharities, {
-    "raffl": "3874"
-}, 200.0, :[{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/</td>
-<td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:58, fetchSoldOutRafflesWithLogin by giving  wrong payload, POST, /v1/fetchSoldOutRafflesWithLogin, {
-    "raffl": "3874"
-}, 200.0, []</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:20, fetchTopPrizes, POST, /v1/fetchTopPrizes, {
-    "raffle_id": 8716,
-    "topPrCnt": "50"
-}, 200.0, [{"id":655,"created":"2023-03-15T21:27:56.665Z","status":3,"ticket_no_alias":23514,"raffle_id":8716,"user_id":163509,"updated":"2023-03-15T21:27:56.665Z","price":"5000.00","legacy_tkt_nos":null,"instant_win_prize_id":655,"name":"£5,000 Cash","description":"","img_url":"media23/rafMWTH5000.webp","CategoryID_id":35,"cash_alternative":0},{"id":754,"created":"2023-03-15T21:27:57.763Z","status":3,"ticket_no_alias":34761,"raffle_id":8716,"user_id":1694,"updated":"2023-03-15T21:27:57.763Z","price":"2000.00","legacy_tkt_nos":null,"instant_win_prize_id":754,"name":"£2,000 Cash","description":"","img_url":"media23/rafMWTH2000.webp","CategoryID_id":35,"cash_alternative":0},{"id":754,"created":"2023-03-15T21:27:56.361Z","status":3,"ticket_no_alias":21121,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:56.361Z","price":"2000.00","legacy_tkt_nos":null,"instant_win_prize_id":754,"name":"£2,000 Cash","description":"","img_url":"media23/rafMWTH2000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:54.844Z","status":3,"ticket_no_alias":6585,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:54.844Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:54.707Z","status":3,"ticket_no_alias":4520,"raffle_id":8716,"user_id":163509,"updated":"2023-03-15T21:27:54.707Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.373Z","status":3,"ticket_no_alias":11581,"raffle_id":8716,"user_id":112301,"updated":"2023-03-15T21:27:55.373Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.445Z","status":3,"ticket_no_alias":22693,"raffle_id":8716,"user_id":77968,"updated":"2023-03-15T21:27:56.445Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.367Z","status":3,"ticket_no_alias":11163,"raffle_id":8716,"user_id":5306,"updated":"2023-03-15T21:27:55.367Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.875Z","status":3,"ticket_no_alias":26405,"raffle_id":8716,"user_id":128879,"updated":"2023-03-15T21:27:56.875Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.946Z","status":3,"ticket_no_alias":27593,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:56.946Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.437Z","status":3,"ticket_no_alias":22138,"raffle_id":8716,"user_id":102777,"updated":"2023-03-15T21:27:56.437Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.436Z","status":3,"ticket_no_alias":22129,"raffle_id":8716,"user_id":2393,"updated":"2023-03-15T21:27:56.436Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:54.253Z","status":3,"ticket_no_alias":208,"raffle_id":8716,"user_id":121277,"updated":"2023-03-15T21:27:54.253Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.080Z","status":3,"ticket_no_alias":7644,"raffle_id":8716,"user_id":28895,"updated":"2023-03-15T21:27:55.080Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.225Z","status":3,"ticket_no_alias":19291,"raffle_id":8716,"user_id":124940,"updated":"2023-03-15T21:27:56.225Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.661Z","status":3,"ticket_no_alias":13231,"raffle_id":8716,"user_id":99015,"updated":"2023-03-15T21:27:55.661Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.729Z","status":3,"ticket_no_alias":14198,"raffle_id":8716,"user_id":149602,"updated":"2023-03-15T21:27:55.729Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.360Z","status":3,"ticket_no_alias":21080,"raffle_id":8716,"user_id":165331,"updated":"2023-03-15T21:27:56.360Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.823Z","status":3,"ticket_no_alias":35134,"raffle_id":8716,"user_id":145925,"updated":"2023-03-15T21:27:57.823Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.072Z","status":3,"ticket_no_alias":7073,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:55.072Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.760Z","status":3,"ticket_no_alias":34595,"raffle_id":8716,"user_id":124940,"updated":"2023-03-15T21:27:57.760Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.222Z","status":3,"ticket_no_alias":9825,"raffle_id":8716,"user_id":19292,"updated":"2023-03-15T21:27:55.222Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:55.595Z","status":3,"ticket_no_alias":12548,"raffle_id":8716,"user_id":116121,"updated":"2023-03-15T21:27:55.595Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.893Z","status":3,"ticket_no_alias":36070,"raffle_id":8716,"user_id":82749,"updated":"2023-03-15T21:27:57.893Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.873Z","status":3,"ticket_no_alias":26297,"raffle_id":8716,"user_id":138106,"updated":"2023-03-15T21:27:56.873Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.255Z","status":3,"ticket_no_alias":29501,"raffle_id":8716,"user_id":19292,"updated":"2023-03-15T21:27:57.255Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:56.365Z","status":3,"ticket_no_alias":21436,"raffle_id":8716,"user_id":112301,"updated":"2023-03-15T21:27:56.365Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":149,"created":"2023-03-15T21:27:57.686Z","status":3,"ticket_no_alias":33229,"raffle_id":8716,"user_id":37632,"updated":"2023-03-15T21:27:57.686Z","price":"1000.00","legacy_tkt_nos":null,"instant_win_prize_id":149,"name":"£1,000 Tax Free Cash","description":"","img_url":"media23/rafMWTH1000.webp","CategoryID_id":35,"cash_alternative":0},{"id":700,"created":"2023-03-15T21:27:58.289Z","status":3,"ticket_no_alias":39991,"raffle_id":8716,"user_id":155231,"updated":"2023-03-15T21:27:58.289Z","price":"997.44","legacy_tkt_nos":null,"instant_win_prize_id":700,"name":"Holiday to Crete 🇬🇷","description":"","img_url":"IW/crete.webp","CategoryID_id":9,"cash_alternative":0},{"id":259,"created":"2023-03-15T21:27:57.900Z","status":3,"ticket_no_alias":36595,"raffle_id":8716,"user_id":145925,"updated":"2023-03-15T21:27:57.900Z","price":"499.99","legacy_tkt_nos":null,"instant_win_prize_id":259,"name":"Dyson Airwrap","description":"","img_url":"IW/dysonairwrap.webp","CategoryID_id":6,"cash_alternative":0},{"id":244,"created":"2023-03-15T21:27:56.812Z","status":3,"ticket_no_alias":25794,"raffle_id":8716,"user_id":105080,"updated":"2023-03-15T22:19:52.388Z","price":"499.00","legacy_tkt_nos":[],"instant_win_prize_id":244,"name":"New iPad","description":"","img_url":"IW/ipad10thgen.webp","CategoryID_id":6,"cash_alternative":0},{"id":245,"created":"2023-03-15T21:27:58.277Z","status":3,"ticket_no_alias":39152,"raffle_id":8716,"user_id":108826,"updated":"2023-03-15T21:27:58.277Z","price":"400.00","legacy_tkt_nos":null,"instant_win_prize_id":245,"name":"Samsung 50\" TV","description":"","img_url":"IW/officetv.webp","CategoryID_id":6,"cash_alternative":0},{"id":752,"created":"2023-03-15T21:27:55.660Z","status":3,"ticket_no_alias":13168,"raffle_id":8716,"user_id":145925,"updated":"2023-03-15T21:27:55.660Z","price":"389.99","legacy_tkt_nos":null,"instant_win_prize_id":752,"name":"Ninja Woodfire Electric BBQ","description":"","img_url":"IW/ninjawoodfire.webp","CategoryID_id":6,"cash_alternative":0},{"id":187,"created":"2023-03-15T21:27:57.251Z","status":3,"ticket_no_alias":29194,"raffle_id":8716,"user_id":142485,"updated":"2023-03-15T21:27:57.251Z","price":"389.00","legacy_tkt_nos":null,"instant_win_prize_id":187,"name":"PS5 Digital Edition","description":"","img_url":"IW/PS5DigitalEdition.webp","CategoryID_id":6,"cash_alternative":0},{"id":187,"created":"2023-03-15T21:27:54.347Z","status":3,"ticket_no_alias":1675,"raffle_id":8716,"user_id":7188,"updated":"2023-03-15T21:27:54.347Z","price":"389.00","legacy_tkt_nos":null,"instant_win_prize_id":187,"name":"PS5 Digital Edition","description":"","img_url":"IW/PS5DigitalEdition.webp","CategoryID_id":6,"cash_alternative":0},{"id":270,"created":"2023-03-15T21:27:55.737Z","status":3,"ticket_no_alias":14797,"raffle_id":8716,"user_id":124940,"updated":"2023-03-15T21:27:55.737Z","price":"349.00","legacy_tkt_nos":null,"instant_win_prize_id":270,"name":"Steam Deck","description":"","img_url":"IW/steamdeck.webp","CategoryID_id":6,"cash_alternative":0},{"id":257,"created":"2023-03-15T21:27:55.806Z","status":3,"ticket_no_alias":15802,"raffle_id":8716,"user_id":163738,"updated":"2023-03-15T21:27:55.806Z","price":"289.95","legacy_tkt_nos":null,"instant_win_prize_id":257,"name":"Nintendo Switch OLED","description":"","img_url":"IW/oledswitch.webp","CategoryID_id":6,"cash_alternative":0},{"id":709,"created":"2023-03-15T21:27:56.946Z","status":3,"ticket_no_alias":27615,"raffle_id":8716,"user_id":154224,"updated":"2023-03-15T21:27:56.946Z","price":"250.00","legacy_tkt_nos":null,"instant_win_prize_id":709,"name":"Oxford City Break","description":"","img_url":"IW/oxford.webp","CategoryID_id":9,"cash_alternative":0},{"id":751,"created":"2023-03-15T21:27:56.871Z","status":3,"ticket_no_alias":26168,"raffle_id":8716,"user_id":163509,"updated":"2023-03-15T21:27:56.871Z","price":"249.99","legacy_tkt_nos":null,"instant_win_prize_id":751,"name":"Ninja Speedi","description":"","img_url":"IW/ninjaspeedi.webp","CategoryID_id":6,"cash_alternative":0},{"id":144,"created":"2023-03-15T21:27:57.257Z","status":3,"ticket_no_alias":29631,"raffle_id":8716,"user_id":145255,"updated":"2023-03-15T21:27:57.257Z","price":"249.99","legacy_tkt_nos":null,"instant_win_prize_id":144,"name":"Xbox Series S","description":"","img_url":"IW/xboxseriess.webp","CategoryID_id":7,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:55.072Z","status":3,"ticket_no_alias":7063,"raffle_id":8716,"user_id":105080,"updated":"2023-03-15T21:27:55.072Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:54.713Z","status":3,"ticket_no_alias":4938,"raffle_id":8716,"user_id":165331,"updated":"2023-03-15T21:27:54.713Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:54.709Z","status":3,"ticket_no_alias":4672,"raffle_id":8716,"user_id":24779,"updated":"2023-03-15T21:27:54.709Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:56.363Z","status":3,"ticket_no_alias":21266,"raffle_id":8716,"user_id":31678,"updated":"2023-03-15T21:27:56.363Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:54.840Z","status":3,"ticket_no_alias":6250,"raffle_id":8716,"user_id":17684,"updated":"2023-03-15T21:27:54.840Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:55.214Z","status":3,"ticket_no_alias":9286,"raffle_id":8716,"user_id":19292,"updated":"2023-03-15T21:27:55.214Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:56.234Z","status":3,"ticket_no_alias":19931,"raffle_id":8716,"user_id":24779,"updated":"2023-03-15T21:27:56.234Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:56.163Z","status":3,"ticket_no_alias":18703,"raffle_id":8716,"user_id":105080,"updated":"2023-03-15T21:27:56.163Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:55.799Z","status":3,"ticket_no_alias":15330,"raffle_id":8716,"user_id":110218,"updated":"2023-03-15T21:27:55.799Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0},{"id":753,"created":"2023-03-15T21:27:56.439Z","status":3,"ticket_no_alias":22338,"raffle_id":8716,"user_id":145925,"updated":"2023-03-15T21:27:56.439Z","price":"200.00","legacy_tkt_nos":null,"instant_win_prize_id":753,"name":"£200 Cash","description":"","img_url":"media23/rafMWTH200.webp","CategoryID_id":35,"cash_alternative":0}]
-check_circle 9:49:59 AM Assertion passed
-check_circle 9:49:59 AM All sheet row datas are executed successfully</td>
-<td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:76, fetchWinnersGallery  by giving  wrong payload, POST, /v1/fetchWinnersGallery, {
-    "raffl": "3874"
-}, 502.0, {"message": "Internal server error"}</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:28, fetchAllPrizes  by giving  wrong payload, POST, /v1/fetchAllPrizes, {
-    "raffewrwl": "3874"
-}, 400.0, Invalid Request</td>
-<td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:4, fetchFeaturedRaffles by giving  wrong payload, POST, /v1/fetchFeaturedRaffles, {"idwrwer":"123"}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
-</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:65, Entries Sold, POST, /v1/fetchEntriesSold, {
-    "raffle_id": 8917
-}, 200.0, {"soldPercentage":0,"remainingEntriesCount":399,"totalEntriesCount":399,"soldEntriesCount":0}</td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:18, getRafflePageData fetchAllRaffles With Login by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:42, getRafflePageData fetchAllRaffles With Login by giving invalid endpoint, POST, /v1/getRaffePageD, {
     "raffleCode": "3874"
 }, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:38, Total Raised Charity Count, POST, /v1/fetchTotalRaisedCharitiesCount, {}, 200.0, [{"sum":"594828"}]</td>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:5, Featured Raffles With Login by giving valid data, POST, /v1/fetchFeaturedRafflesWithLogin, {}, 200.0, [{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
+</td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:67, fetchEntriesSold  by giving  wrong payload, POST, /v1/fetchEntriesSold, {
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:63, fetchNews by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:45, updateCharityWithLogin  by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:37, fetchAllCharities  by giving  wrong payload, POST, /v1/fetchAllCharities, {
     "raffl": "3874"
-}, 502.0, {"message": "Internal server error"}</td>
+}, 200.0, :[{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/</td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:60, fetchNewsAndBlogs  by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:24, fetchTopPrizesWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:49, charitySupportWithLogin  by giving  wrong payload, POST, /v1/charitySupportWithLogin, {
+    "raffl": "3874"
+}, 200.0, :[{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/ActionAidUKLogo.png","CharityActive":true,"CharityUrl":"https://www.actionaid.org.uk/","CharitySortOrder":1,"CharityDisplay":true,"CharitySelectable":true,"CharityShowLogo":true,"CharityImgAlt":"ActionAid Logo","CharityWhowonDescription":"","CharityWhowonImgUrl":"","DonationAmountAdjust":2837,"CharityLogoImgUr</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:44, Update Charity With Login, POST, /v1/updateCharityWithLogin, {
+    "charity_id": 300
+}, 200.0, :200</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:17, getRafflePageDataWithLogin, POST, /v1/getRafflePageDataWithLogin, {
+    "raffleCode": "3874"
+}, 200.0, :[{"id":8197,"RaffleCode":3909,"QuantityOfItems":1,"MainImageUrl":"media23/rafNinjaBBQ_main.webp","Summary":".","Description":"Win an Ninja Woodfire Electric BBQ!\r\n
+
+</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:89, fetchDrawDetails  by giving  wrong payload, POST, /v1/fetchDrawDetails, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:28, fetchAllPrizes  by giving  wrong payload, POST, /v1/fetchAllPrizes, {
+    "raffewrwl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:46, updateCharityWithLogin  by giving  wrong payload, POST, /v1/updateCharityWithLogin, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:47, Charity Support With Login, POST, /v1/charitySupportWithLogin, {}, 200.0, [{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/ActionAidUKLogo.png","CharityActive":true,"CharityUrl":"https://www.actionaid.org.uk/","CharitySortOrder":1,"CharityDisplay":true,"CharitySelectable":true,"CharityShowLogo":true,"CharityImgAlt":"ActionAid Logo","CharityWhowonDescription":"","CharityWhowonImgUrl":"","DonationAmountAdjust":2837,"CharityLogoImgUrl":"media/AAUKlogo2.png","DonationAmountDisplayed":2837,"CharityUrlNewsletter":"","CharityAwareness":false,"created_at":"2021-03-01T00:00:01.000Z","CharityColor":"#000"}]</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:86, fetchWinnersDatewiseDataFilterWithLogin   by giving  wrong payload, POST, /v1/fetchWinnersDatewiseDataFilterWithLogin, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:85, fetchWinnersDatewiseDataFilterWithLogin  by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:100, fetchCategoryWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:72, fetchWinnersGalleryWithLogin by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:9, fetchAllRaffles by giving invalid endpoint, POST, /v2/fetchFeaturedRafflessL, {}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:90, Sort Draw tickets Purchase, POST, /v1/sortDrawticketsPurchase, {"raffleId":7978}, 200.0, {"monthsSet":[{"month":"May","monthCode":5,"year":2023},{"month":"April","monthCode":4,"year":2023},{"month":"March","monthCode":3,"year":2023},{"month":"February","monthCode":2,"year":2023},{"month":"January","monthCode":1,"year":2023},{"month":"December","monthCode":12,"year":2022},{"month":"November","monthCode":11,"year":2022},{"m</td>
+<td></td>
+<td>1</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:41, Individual Charity, POST, /v1/fetchIndividualCharity, {
+    "id":"300"
+}, 200.0, [{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/ActionAidUKLogo.png","CharityActive":true,"CharityUrl":"https://www.actionaid.org.uk/","CharitySortOrder":</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:16, get Raffles With Login  by giving  wrong payload, POST, /v1/getRafflePageData, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:77, Winners Month With Login, POST, /v1/fetchWinnersMonthWithLogin, {}, 200.0, {"monthsSet":[{"month":"May","monthCode":5,"year":2023},{"month":"April","monthCode":4,"year":2023},{"month":"March","monthCode":3,"year":2023},{"month":"February","monthCode":2,"year":2023},{"month":"January","monthCode":1,"year":2023},{"month":"December","monthCode":12,"year":2022},{"month":"November","monthCode":11,"year":2022},{"m</td>
+<td></td>
+<td>1</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:15, getRafflePageData fetchAllRaffles With Login by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:35, All Charities, POST, /v1/fetchAllCharities, {}, 200.0, [{"id":300,"CharityName":"ActionAid UK","CharityDescription":"ActionAid is an international charity that works with women and girls living in poverty. ActionAid is ending violence and fighting poverty so that all women, everywhere, can create the future they want.","CharityImgUrl":"media/ActionAidUKLogo.png","CharityActive":true,"CharityUrl":"https://www.actionaid.org.uk/","CharitySortOrder":</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:40, fetchTotalRaisedCharitiesCount  by giving  wrong payload, POST, /v1/fetchTotalRaisedCharitiesCount, {
+    "raffl": "3874"
+}, 200.0, :[{"sum":"594828"}]</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:80, fetchWinnersMonthWithLogin  by giving  wrong payload, POST, /v1/fetchWinnersMonthwiseDataWithLogin, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:31, fetchAllPrizesWithLogin by giving  wrong payload, POST, /v1/fetchAllPrizesWithLogin, {
+    "raffl": "3874"
+}, 400.0, Invalid Request</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:36, fetchAllCharities by giving invalid endpoint, POST, /v1/getRaffePageD, {
+    "raffleCode": "3874"
+}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:65, Entries Sold, POST, /v1/fetchEntriesSold, {
+    "raffle_id": 8917
+}, 200.0, {"soldPercentage":0,"remainingEntriesCount":399,"totalEntriesCount":399,"soldEntriesCount":0}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
+<tr>
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:102, Generate OTP SMS Verification, POST, /v1/generateOtpSmsVerification, {}, 200.0, {"message":"Message Sent."}</td>
+<td></td>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
 <td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:29, All Prizes with Login, POST, /v1/fetchAllPrizesWithLogin, {
    
@@ -786,29 +957,22 @@ check_circle 9:49:59 AM All sheet row datas are executed successfully</td>
     "topPrizes": 50
 }, 200.0, [{"ticket_no_alias":80,"status":3,"instant_win_prize__name":"£25 Site Credit","instant_win_prize__value":"25.00"},{"ticket_no_alias":210,"status":3,"instant_win_prize__name":"£25 Site Credit","instant_win_prize__value":"25.00"},{"ticket_no_alias":248,"status":3,"instant_win_prize__name":"£50 Cash","instant_win_prize__value":"50.00"},{"ticket_no_alias":300,"status":3,"instant_win_prize__name":"£10</td>
 <td></td>
-<td>6</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:34, fetchAllPrizesFilter by giving  wrong payload, POST, /v1/fetchAllPrizesFilter, {
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:67, fetchEntriesSold  by giving  wrong payload, POST, /v1/fetchEntriesSold, {
     "raffl": "3874"
-}, 400.0, Invalid Request</td>
+}, 502.0, {"message": "Internal server error"}</td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 <tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:25, fetchTopPrizesWithLogin by giving  wrong payload, POST, /v1/fetchTopPrizesWithLogin, {
+<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:64, fetchNews by giving  wrong payload, POST, /v1/fetchNews, {
     "raffl": "3874"
-}, 400.0, Invalid Request</td>
+}, 400.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
 <td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
-<tr>
-<td title='com.Raffloux.ApiTest.RafflouxApiTestClass.RestApiLoginValidations()'><b>RestApiLoginValidations</b><br>Test class: com.Raffloux.ApiTest.RafflouxApiTestClass<br>Parameters: ROW:39, fetchTotalRaisedCharitiesCount by giving invalid endpoint, POST, /v1/getRaffePageD, {
-    "raffleCode": "3874"
-}, 403.0, {"message":"Authorization header requires 'Credential' parameter. Authorization header requires 'Signature' parameter. Authorization header requires 'SignedHeaders' parameter. </td>
-<td></td>
-<td>5</td>
-<td>com.Raffloux.ApiTest.RafflouxApiTestClass@724f138e</td></tr>
+<td>0</td>
+<td>com.Raffloux.ApiTest.RafflouxApiTestClass@2b662a77</td></tr>
 </table><p>
 </body>
 </html>

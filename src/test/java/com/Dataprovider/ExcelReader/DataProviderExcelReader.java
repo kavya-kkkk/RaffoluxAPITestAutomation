@@ -70,7 +70,7 @@ public class DataProviderExcelReader extends BaseClass{
 	    @DataProvider(name = "FunctSheet")
 	    public static Object[][] readExcelData1() throws IOException {
 	        List<Object[]> data = new ArrayList<>();
-	        File file = new File(F_NAME1);
+	        File file = new File(F_NAME);
 	          FileInputStream inputStream = new FileInputStream(file);
 	        Workbook workbook = WorkbookFactory.create(inputStream);
 	        Sheet sheet = workbook.getSheet(APIPN_S);

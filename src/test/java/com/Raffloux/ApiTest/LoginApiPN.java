@@ -29,7 +29,7 @@ public class LoginApiPN extends BaseClass{
 	
 	@BeforeSuite 
 public void setUp() {
-	ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(REPORTPATHLogin);
+	ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(REPORTPATH);
  	extent = new ExtentReports();
 	extent.attachReporter(htmlReporter);
 }
