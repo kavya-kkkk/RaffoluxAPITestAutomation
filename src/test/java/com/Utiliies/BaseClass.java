@@ -13,7 +13,9 @@ public class BaseClass {
 	
 		
 	//Path for extend report
-     public String	REPORTPATH= "C:\\Users\\desktop\\eclipse\\RestAssured\\RafflouxAPI-HTML-Report\\ApiTestPN2.6-Report-Raffloux.html";
-    public String	REPORTPATHLogin= "C:\\Users\\desktop\\eclipse\\RestAssured\\RafflouxAPI-HTML-Report\\Login2.6ApiTest-Report-Raffloux.html";
+//      public String	REPORTPATH= "C:\\Users\\desktop\\eclipse\\RestAssured\\RafflouxAPI-HTML-Report\\ApiTestPN2.6-Report-Raffloux.html";
+//     public String	REPORTPATHLogin= "C:\\Users\\desktop\\eclipse\\RestAssured\\RafflouxAPI-HTML-Report\\Login2.6ApiTest-Report-Raffloux.html";
  	
+ public String	REPORTPATH= "C:\\Users\\desktop\\Desktop\\Jenkins\\ApiTestPN2.6-Report-Raffloux.html";
+    public String	REPORTPATHLogin= "C:\\Users\\desktop\\Desktop\\Jenkins\\Login2.6ApiTest-Report-Raffloux.html";
 }
