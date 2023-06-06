@@ -19,6 +19,6 @@ public class BaseClass {
 //  public String	REPORTPATH= "C:\\Users\\desktop\\Desktop\\Jenkins\\ApiTestPN2.6-Report-Raffloux.html";
 //     public String	REPORTPATHLogin= "C:\\Users\\desktop\\Desktop\\Jenkins\\Login2.6ApiTest-Report-Raffloux.html";
 	
-	public String	REPORTPATH= "C:\\Users\\desktop\\.jenkins\\workspace\\RafflouxAPITest\\RafflouxAPI-HTML-Report\\ApiTestPN2.6PN-Report-Raffloux.html";
-    public String	REPORTPATHLogin= "C:\\Users\\desktop\\.jenkins\\workspace\\RafflouxAPITest\\RafflouxAPI-HTML-Report\\ApiTestPN2.6-Report-Raffloux.html";
+	public String	REPORTPATH= "C:\\Users\\desktop\\.jenkins\\workspace\\RafflouxAPITest\\RafflouxAPI-HTML-Report\\ApiTestPN-Report-Raffloux.html";
+    public String	REPORTPATHLogin= "C:\\Users\\desktop\\.jenkins\\workspace\\RafflouxAPITest\\RafflouxAPI-HTML-Report\\ApiTestLogin.6-Report-Raffloux.html";
 }
